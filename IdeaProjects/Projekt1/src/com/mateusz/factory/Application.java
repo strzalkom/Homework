@@ -5,9 +5,12 @@ package com.mateusz.factory;
  */
 public class Application {
     public static void main(String[] args) {
-        AudiCarFactory audiCarFactory = new AudiCarFactory();
-        Car car = audiCarFactory.buildCar("A3");
-
+//        AudiCarFactory audiCarFactory = new AudiCarFactory();
+//        Car car = audiCarFactory.buildCar("A3");
+AbstractCarFactory abstractCarFactory = new AbstractCarFactory();
+Car car =abstractCarFactory.buildAudiCar("A3");
+Car car2 =abstractCarFactory.buildBMWCar("AMG");
+Car car3 =abstractCarFactory.buildBMWCar("X5");
 
 //
 //        Engine audiEngine = new Engine(200, 3000, "diesel");
