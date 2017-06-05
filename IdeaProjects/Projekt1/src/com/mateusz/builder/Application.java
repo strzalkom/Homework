@@ -12,7 +12,9 @@ public class Application {
               .lastName("Strzalko")
               .age("23")
               .phoneNumber("1421412214")
+              .zipCode("1341245")
               .build();
+
 
         System.out.println(user);
     }
