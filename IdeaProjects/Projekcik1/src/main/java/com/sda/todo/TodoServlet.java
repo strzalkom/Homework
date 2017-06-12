@@ -34,7 +34,7 @@ private TodoChain todoChain;
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter writer = resp.getWriter();
         resp.setContentType("text/html");
-        writer.println(todoChain.invoke(req.getPathInfo()));
+        writer.println(todoChain.invoke(req, resp));
 //        List<TodoModel> allTodos = todoDao.getAllTodos();
 //        String todosView = todoView.show(allTodos);
 //        System.out.println(todosView);

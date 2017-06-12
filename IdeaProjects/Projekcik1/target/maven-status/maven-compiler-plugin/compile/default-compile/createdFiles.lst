@@ -1,9 +1,12 @@
 com\sda\todo\TodoChain.class
 com\sda\todo\TodoDao.class
+com\sda\todo\TodoMapper.class
 com\sda\todo\TodoChainElement.class
 com\sda\todo\AllTodosChainElement.class
 com\sda\todo\TodoView.class
 com\sda\todo\TodoViewHtml.class
 com\sda\todo\TodoModel.class
 com\sda\todo\TodoServlet.class
+com\sda\todo\TodoUtil.class
+com\sda\todo\AddTodoChainElement.class
 com\sda\todo\TodoDaoMock.class
