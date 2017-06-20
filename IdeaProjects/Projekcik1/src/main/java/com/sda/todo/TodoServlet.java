@@ -25,7 +25,7 @@ private TodoChain todoChain;
 //    }
     @Override
     public void init() throws ServletException {
-        todoDao = new TodoDaoMock();
+        todoDao = new TodoDaoFile(getServletContext(),"/todo/data");
         todoView = new TodoViewHtml();
         todoChain = new TodoChain(todoView, todoDao);
     }

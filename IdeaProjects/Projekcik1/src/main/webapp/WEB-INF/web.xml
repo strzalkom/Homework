@@ -8,4 +8,14 @@
         <servlet-name>TodoServlet</servlet-name>
         <url-pattern>/todo/*</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>HomeServlet</servlet-name>
+        <servlet-class>com.sda.todo.HomeServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HomeServlet</servlet-name>
+        <url-pattern>/home</url-pattern>
+    </servlet-mapping>
 </web-app>
